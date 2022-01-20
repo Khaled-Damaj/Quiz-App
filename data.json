@@ -1,0 +1,89 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Comics",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is Batman?",
+      "correct_answer": "Bruce Wayne",
+      "incorrect_answers": ["Clark Kent", "Barry Allen", "Tony Stark"]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Twitch streamer is the vocalist for Red Vox?",
+      "correct_answer": "Vinesauce",
+      "incorrect_answers": ["The8BitDrummer", "LIRIK", "Sodapoppin"]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these African countries list &quot;Spanish&quot; as an official language?",
+      "correct_answer": "Equatorial Guinea",
+      "incorrect_answers": ["Guinea", "Cameroon", "Angola"]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+      "correct_answer": "1995",
+      "incorrect_answers": ["2001", "2011", "1991"]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which radio personality calls himself &quot;The King of All Media&quot;?",
+      "correct_answer": "Howard Stern",
+      "incorrect_answers": ["Rush Limbaugh", "Pete Tong", "Ryan Seacrest"]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In what year did Clint Eastwood star as Inspector Harry Callahan in the film &quot;Dirty Harry&quot;?",
+      "correct_answer": "1971",
+      "incorrect_answers": ["1975", "1983", "1969"]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which boxing personality was one of the presenters in the 1999 revival of It&#039;s a Knockout?",
+      "correct_answer": "Frank Bruno",
+      "incorrect_answers": ["Henry Cooper", "Muhammad Ali", "Joe Fraiser"]
+    },
+    {
+      "category": "Entertainment: Board Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a &quot;what&quot; rule?",
+      "correct_answer": "House",
+      "incorrect_answers": ["Custom", "Extra", "Change"]
+    },
+    {
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?",
+      "correct_answer": "The Junkyard Gang",
+      "incorrect_answers": [
+        "The Trash Troupe",
+        "The Scrapyard Seven",
+        "The Rotten Posse"
+      ]
+    },
+    {
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which singer provided the voice of Metroid&#039;s Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
+      "correct_answer": "Levi Stubbs",
+      "incorrect_answers": ["Freddie Mercury", "Janet Jackson", "Joan Jett"]
+    }
+  ]
+}

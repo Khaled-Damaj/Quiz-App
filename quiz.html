@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/quiz.css" />
+    <!-- Font awesome library-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <form action="" id="form">
+      <label for="username">Name</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter Your Name"
+        required
+      />
+      <label for="total-number">Number of Questions:</label>
+      <input
+        type="number"
+        name="number"
+        id="total-number"
+        min="1"
+        max="50"
+        value="10"
+      />
+
+      <label for="total-time">Time:</label>
+      <div class="time">
+        <input
+          type="number"
+          name="time"
+          id="total-hours"
+          min="1"
+          max="24"
+          value="0"
+        />
+        <label for="total-hours">h</label>
+        <input
+          type="number"
+          name="time"
+          id="total-minutes"
+          min="1"
+          max="60"
+          value="1"
+        />
+        <label for="total-minutes">min</label>
+      </div>
+
+      <label for="category">Select Category:</label>
+      <select name="category" class="form-control" id="category">
+        <option value="any">Any Category</option>
+        <option value="9">General Knowledge</option>
+        <option value="10">Entertainment: Books</option>
+        <option value="11">Entertainment: Film</option>
+        <option value="12">Entertainment: Music</option>
+        <option value="13">Entertainment: Musicals &amp; Theatres</option>
+        <option value="14">Entertainment: Television</option>
+        <option value="15">Entertainment: Video Games</option>
+        <option value="16">Entertainment: Board Games</option>
+        <option value="17">Science &amp; Nature</option>
+        <option value="18">Science: Computers</option>
+        <option value="19">Science: Mathematics</option>
+        <option value="20">Mythology</option>
+        <option value="21">Sports</option>
+        <option value="22">Geography</option>
+        <option value="23">History</option>
+        <option value="24">Politics</option>
+        <option value="25">Art</option>
+        <option value="26">Celebrities</option>
+        <option value="27">Animals</option>
+        <option value="28">Vehicles</option>
+        <option value="29">Entertainment: Comics</option>
+        <option value="30">Science: Gadgets</option>
+        <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+        <option value="32">Entertainment: Cartoon &amp; Animations</option>
+      </select>
+      <label for="difficulty">Select Difficulty: </label>
+      <select name="difficulty" class="form-control" id="difficulty">
+        <option value="any">Any Difficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <label for="questions-type">Select type:</label>
+      <select name="questions-type" id="questions-type">
+        <option value="any">Any Type</option>
+        <option value="multiple">Multiple Choice</option>
+        <option value="boolean">True / False</option>
+      </select>
+      <!-- <select name="questions-type" class="form-control" id="questions-type">
+        <option value="any">Any Type</option>
+        <option value="sequantial">Sequantial</option>
+        <option value="non-sequantial">Non Sequantial</option>
+      </select> -->
+      <button type="button" id="begin-test">Begin Test</button>
+    </form>
+    <section id="quiz">
+      <div class="container">
+        <div class="col-1">
+          <div class="question-marks">
+            <h3>Question <span class="question-number"></span></h3>
+            <span class="answered">Not yet answered</span>
+            <span>Marked out of <span class="marks">1.00</span></span>
+          </div>
+          <div class="question-info">
+            <div class="generate-question"></div>
+            <div class="next">Next Page</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <h2>Quiz Navigation</h2>
+          <div class="question-numbers"></div>
+          <span class="finish-attempt">finish-attempt..</span>
+          <span class="time-left">
+            <span class="label">Time left:</span>
+            <span class="minutes">00</span> :
+            <span class="seconds">00</span>
+          </span>
+        </div>
+      </div>
+    </section>
+    <div class="review">
+      <div class="container">
+        <div class="col-1">
+          <div class="profile">
+            <div class="row-1 grid-2">
+              <div class="image">
+                <img
+                  src="images/user.png"
+                  alt="user Profile"
+                  title="User profile"
+                />
+              </div>
+              <div class="username"></div>
+            </div>
+            <div class="row-1 grid-2">
+              <div class="date-title">Completed On</div>
+              <div class="completed-date"></div>
+            </div>
+            <div class="row-1 grid-2">
+              <div class="time-title">Time taken</div>
+              <div class="time-taken">
+                <span class="minutes">29</span> minutes
+                <span class="seconds">29</span>s
+              </div>
+            </div>
+            <div class="row-1 grid-2">
+              <div class="marks">Grade</div>
+              <div class="total-marks">
+                <span class="grade">10</span> out of
+                <span class="total-questions">10.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <h2>Quiz Navigation</h2>
+          <div class="question-numbers"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/quiz.js"></script>
+  </body>
+</html>
+
+<!-- <i class="right-answer fas fa-check"></i>
+<i class="false-answer fas fa-times"></i> -->
